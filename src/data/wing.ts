@@ -56,11 +56,19 @@ const wing: Character = {
     //  blockstun: null,
     //  advantage_on_hit: null,
     //  advantage_on_block: null,
-    //  tags: {
-    //    on_the_ground: null,
-    //    launch: null,
-    //    knockdown: null,
-    //  },
+    hit_level: HitLevel.high,
+    block_level: {
+      high: true,
+      low: false
+    },
+      tags: {
+        on_the_ground: false,
+        launch: false,
+        knockdown: false,
+        boost_cancelable: true,
+        special_cancelable: true,
+        super_cancelable: true
+      },
     },
     {
       input: "SW",
