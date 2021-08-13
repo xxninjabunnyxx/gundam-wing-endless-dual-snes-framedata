@@ -4,9 +4,11 @@
   "description": "Frame data for Gundam Wing: Endless Duel",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"**/*.+(js|json)\"",
-    "generate": "node generators/frameData.js",
-    "test": "npm run generate && npm run format && jest --silent"
+    "format": "prettier --write \"**/*.+(js|json|ts)\"",
+    "tsc": "npx tsc",
+    "watch": "npx tsc -w",
+    "build": "node \"./dist/index.js\"",
+    "generate": "npm run tsc && npm run build && npm run format"
   },
   "author": "xxninjabunnyxx",
   "license": "MIT",
