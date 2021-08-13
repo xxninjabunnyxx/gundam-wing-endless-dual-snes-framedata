@@ -1,0 +1,18 @@
+{
+  "name": "gundam-wing-endless-dual-snes-framedata",
+  "version": "0.0.1",
+  "description": "Frame data for Gundam Wing: Endless Duel",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.+(js|json)\"",
+    "generate": "node generators/frameData.js",
+    "test": "npm run generate && npm run format && jest --silent"
+  },
+  "author": "xxninjabunnyxx",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
