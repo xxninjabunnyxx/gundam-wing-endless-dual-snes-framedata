@@ -4,24 +4,24 @@ type Character = {
 }
 
 type Move = {
-  input: String
-  startup?: String
-  active?: String
-  recovery?: String
+  input: string
+  startup?: string
+  active?: string
+  recovery?: string
   hit_level?: HitLevel
   block_level?: BlockLevel
-  hitstun?: String
-  blockstun?: String
+  hitstun?: string
+  blockstun?: string
   tags?: Tags
 }
 
 type Tags = {
-  knockdown?: Boolean
-  launch?: Boolean
-  on_the_ground?: Boolean
-  boost_cancelable?: Boolean
-  special_cancelable?: Boolean
-  super_cancelable?: Boolean
+  knockdown?: boolean
+  launch?: boolean
+  on_the_ground?: boolean
+  boost_cancelable?: boolean
+  special_cancelable?: boolean
+  super_cancelable?: boolean
 }
 
 enum HitLevel {
@@ -31,6 +31,6 @@ enum HitLevel {
 }
 
 type BlockLevel = {
-  high?: Boolean
-  low?: Boolean
+  high?: boolean
+  low?: boolean
 }
