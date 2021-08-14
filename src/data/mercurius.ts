@@ -13,15 +13,14 @@ const mercurius: Character = {
 { input: "jSP" },
 { input: "jWW" },
 { input: "jSW" },
-{ input: "6SP" },
-{ input: "214W" },
-{ input: "214S" },
+{ input: "214A" },
 { input: "236W" },
 { input: "236S" },
 { input: "623W" },
 { input: "623S" },
+{ input: "j623W" },
+{ input: "j623S" },
 { input: "236236A" },
-{ input: "214214A" },
     ]
 }
 

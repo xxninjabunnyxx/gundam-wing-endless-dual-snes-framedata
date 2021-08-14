@@ -1,3 +1,10 @@
+import Deathscythe from './data/deathscythe'
+import Epyon from './data/epyon'
+import Heavyarms from './data/heavyarms'
+import Mercurius from './data/mercurius'
+import Sandrock from './data/sandrock'
+import Shenlong from './data/shenlong'
+import Tallgeese from './data/tallgeese'
+import Vayeate from "./data/vayeate"
 import Wing from "./data/wing"
-
-console.log(Wing)
+import WingZero from './data/wingZero'

@@ -20,8 +20,11 @@ const tallgeese: Character = {
 { input: "236S" },
 { input: "623W" },
 { input: "623S" },
-{ input: "236236A" },
-{ input: "214214A" },
+{ input: "j236W" },
+{ input: "j236S" },
+{ input: "j623W" },
+{ input: "j623S" },
+{ input: "236236A" }
     ]
 }
 

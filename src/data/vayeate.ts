@@ -19,7 +19,8 @@ const vayeate: Character = {
 { input: "623S" },
 { input: "j236W" },
 { input: "j236S" },
-{ input: "236236A" }
+{ input: "236236A" },
+{ input: "j236236A" }
 ]
 }
 
