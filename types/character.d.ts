@@ -1,5 +1,5 @@
 type Character = {
-  name: String
+  name: string
   moves: Move[]
 }
 
@@ -27,7 +27,7 @@ type Tags = {
 enum HitLevel {
   high,
   mid,
-  low
+  low,
 }
 
 type BlockLevel = {
