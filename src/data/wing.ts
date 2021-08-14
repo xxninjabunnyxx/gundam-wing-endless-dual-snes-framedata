@@ -5,11 +5,9 @@ const wing: Character = {
       input: "WP",
       startup: "6",
       active: "4",
-      //recovery: "5",
-      //hitstun: "24",
-      //blockstun: "15",
-      //advantage_on_block: "10",
-    //advantage_on_hit: "19",
+      recovery: "5",
+      hitstun: "21",
+      blockstun: "12",
     hit_level: HitLevel.mid,
     block_level: {
         high: true,
@@ -30,9 +28,7 @@ const wing: Character = {
       active: "10",
       recovery: "23",
       hitstun: "-",
-      //blockstun: "15",
-      advantage_on_hit: "-",
-      //advantage_on_block: "-8",
+      blockstun: "6",
       hit_level: HitLevel.mid,
       block_level: {
         high: true,
@@ -51,11 +47,9 @@ const wing: Character = {
       input: "WW",
       startup: "7",
       active: "4",
-    //recovery: "20",
+    recovery: "19",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     hit_level: HitLevel.high,
     block_level: {
       high: true,
@@ -77,8 +71,6 @@ const wing: Character = {
     //  recovery: "19",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -92,8 +84,6 @@ const wing: Character = {
     //  recovery: "9",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -107,8 +97,6 @@ const wing: Character = {
     //  recovery: "23",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -122,8 +110,6 @@ const wing: Character = {
     //  recovery: "17",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -137,8 +123,6 @@ const wing: Character = {
     //  recovery: "16",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -148,12 +132,10 @@ const wing: Character = {
     {
       input: "jWP",
       startup: "5",
-    //  active: null,
+      active: "-",
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -163,12 +145,10 @@ const wing: Character = {
     {
       input: "jSP",
       startup: "9",
-    //  active: null,
+    active: "-",
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -178,12 +158,10 @@ const wing: Character = {
     {
       input: "jWW",
       startup: "5",
-    //  active: null,
+      active: "-",
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -193,12 +171,10 @@ const wing: Character = {
     {
       input: "jSW",
       startup: "9",
-    //  active: null,
+      active: "-",
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -212,8 +188,6 @@ const wing: Character = {
     //  recovery: "19",
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -227,8 +201,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -242,8 +214,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -257,8 +227,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -272,8 +240,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -287,8 +253,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -302,8 +266,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -317,8 +279,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
@@ -332,8 +292,6 @@ const wing: Character = {
     //  recovery: null,
     //  hitstun: null,
     //  blockstun: null,
-    //  advantage_on_hit: null,
-    //  advantage_on_block: null,
     //  tags: {
     //    on_the_ground: null,
     //    launch: null,
